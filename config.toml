@@ -3,8 +3,10 @@ title = "My Hugo PaperMod Blog"
 theme = "github.com/adityatelange/hugo-PaperMod"
 defaultContentLanguage = "tr"
 
-paginate = 10
-disableKinds = ["taxonomyTerm"]
+[pagination]
+  pagerSize = 10
+
+disableKinds = ["taxonomy"]
 
 [author]
   name = "Your Name"
