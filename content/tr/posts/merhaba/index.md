@@ -1,6 +1,7 @@
 ---
 title: "Merhaba Dünya"
-date: 2024-01-01T09:00:00+03:00
+date: 2025-10-27T09:00:00+03:00
+author: "Samet Koyuncu"
 description: "İlk Türkçe örnek gönderi"
 draft: false
 slug: "merhaba"

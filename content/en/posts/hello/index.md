@@ -1,6 +1,7 @@
 ---
 title: "Hello World"
-date: 2024-01-01T09:00:00Z
+date: 2025-10-27T06:00:00Z
+author: "Samet Koyuncu"
 description: "First English sample post"
 draft: false
 slug: "hello"

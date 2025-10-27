@@ -1,5 +1,5 @@
-baseURL = "https://example.com/"
-title = "My Hugo PaperMod Blog"
+baseURL = "https://sametkoyuncu.github.io/blog/"
+title = "Samet Koyuncu"
 theme = "github.com/adityatelange/hugo-PaperMod"
 defaultContentLanguage = "tr"
 
@@ -9,7 +9,7 @@ defaultContentLanguage = "tr"
 disableKinds = ["taxonomy"]
 
 [author]
-  name = "Your Name"
+  name = "Samet Koyuncu"
 
 disablePathToLower = false
 enableRobotsTXT = true
@@ -41,8 +41,8 @@ disableAliases = false
 
 [params]
   env = "production"
-  description = "Multilingual blog built with Hugo PaperMod"
-  author = "Your Name"
+  description = "Samet Koyuncu'nun Hugo PaperMod blogu"
+  author = "Samet Koyuncu"
   ShowReadingTime = true
   ShowShareButtons = true
   ShowPostNavLinks = true
@@ -62,13 +62,13 @@ disableAliases = false
     safari_pinned_tab = "safari-pinned-tab.svg"
 
   [params.label]
-    text = "My Blog"
+    text = "Samet Koyuncu"
     icon = ""
     iconHeight = 35
 
   [[params.socialIcons]]
     name = "github"
-    url = "https://github.com/yourname"
+    url = "https://github.com/sametkoyuncu"
   [[params.socialIcons]]
     name = "rss"
     url = "/index.xml"
@@ -85,18 +85,18 @@ disableAliases = false
     languageName = "Türkçe"
     weight = 1
     contentDir = "content/tr"
-    title = "Benim Blogum"
+    title = "Samet Koyuncu"
     languageCode = "tr-tr"
     [languages.tr.params]
-      description = "Türkçe Hugo PaperMod blogu"
+      description = "Samet Koyuncu'nun Türkçe Hugo PaperMod blogu"
   [languages.en]
     languageName = "English"
     weight = 2
     contentDir = "content/en"
-    title = "My Blog"
+    title = "Samet Koyuncu"
     languageCode = "en-us"
     [languages.en.params]
-      description = "English Hugo PaperMod blog"
+      description = "Samet Koyuncu's English Hugo PaperMod blog"
 
 [module]
   proxy = "direct"

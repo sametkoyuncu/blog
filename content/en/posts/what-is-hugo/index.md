@@ -1,6 +1,7 @@
 ---
 title: "What Is Hugo? The Fastest Way to Build a Blog or Portfolio with a Static Site Generator"
-date: 2025-10-27
+date: 2025-10-27T06:00:00Z
+author: "Samet Koyuncu"
 slug: "what-is-hugo"
 translationKey: "hugo-nedir"
 tags: ["hugo", "static-site", "jamstack", "blog", "paperMod"]

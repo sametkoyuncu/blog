@@ -1,6 +1,7 @@
 ---
 title: "Hugo Nedir? Statik Site Üreticisiyle Blog ve Portföy Oluşturmanın En Hızlı Yolu"
-date: 2025-10-27
+date: 2025-10-27T09:00:00+03:00
+author: "Samet Koyuncu"
 slug: "hugo-nedir"
 translationKey: "hugo-nedir"
 tags: ["hugo", "static-site", "jamstack", "blog", "paperMod"]
