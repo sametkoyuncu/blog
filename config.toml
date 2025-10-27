@@ -71,7 +71,7 @@ disableAliases = false
     url = "https://github.com/sametkoyuncu"
   [[params.socialIcons]]
     name = "rss"
-    url = "/index.xml"
+    url = "index.xml"
 
 [languages]
   [languages.tr]
@@ -86,17 +86,17 @@ disableAliases = false
         enabled = true
         title = "Merhaba, ben Samet"
         subtitle = "iOS geliştiricisi ve teknoloji blog yazarı."
-        imageUrl = "images/hugo-cover.png"
+        imageUrl = "https://avatars.githubusercontent.com/u/17934179?s=400&u=abbb2903cb7385d77fc25f2bbb4ee2ffdea19131&v=4"
         imageTitle = "Samet Koyuncu"
         buttons = [
-          { name = "Yazılar", url = "/posts/" },
+          { name = "Yazılar", url = "posts/" },
           { name = "GitHub", url = "https://github.com/sametkoyuncu" }
         ]
     [languages.tr.menu]
       [[languages.tr.menu.main]]
         identifier = "posts"
         name = "Yazılar"
-        url = "/posts/"
+        url = "posts/"
         weight = 10
   [languages.en]
     languageName = "English"
@@ -110,17 +110,17 @@ disableAliases = false
         enabled = true
         title = "Hi, I'm Samet"
         subtitle = "iOS developer sharing notes in English."
-        imageUrl = "images/hugo-cover.png"
+        imageUrl = "https://avatars.githubusercontent.com/u/17934179?s=400&u=abbb2903cb7385d77fc25f2bbb4ee2ffdea19131&v=4"
         imageTitle = "Samet Koyuncu"
         buttons = [
-          { name = "Posts", url = "/en/posts/" },
+          { name = "Posts", url = "en/posts/" },
           { name = "GitHub", url = "https://github.com/sametkoyuncu" }
         ]
     [languages.en.menu]
       [[languages.en.menu.main]]
         identifier = "posts"
         name = "Posts"
-        url = "/en/posts/"
+        url = "en/posts/"
         weight = 10
 
 [module]
