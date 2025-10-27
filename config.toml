@@ -1,0 +1,102 @@
+baseURL = "https://example.com/"
+title = "My Hugo PaperMod Blog"
+theme = "github.com/adityatelange/hugo-PaperMod"
+defaultContentLanguage = "tr"
+
+paginate = 10
+disableKinds = ["taxonomyTerm"]
+
+[author]
+  name = "Your Name"
+
+disablePathToLower = false
+enableRobotsTXT = true
+disableAliases = false
+
+[minify]
+  disableXML = false
+  minifyOutput = true
+
+[services]
+  [services.disqus]
+    shortname = ""
+  [services.googleAnalytics]
+    id = ""
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]
+  page = ["HTML"]
+  taxonomy = ["HTML", "RSS"]
+
+[permalinks]
+  posts = "/:section/:year/:month/:slug/"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  env = "production"
+  description = "Multilingual blog built with Hugo PaperMod"
+  author = "Your Name"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  hideSummary = false
+  comments = false
+
+  [params.assets]
+    favicon = "favicon.ico"
+    favicon16x16 = "favicon-16x16.png"
+    favicon32x32 = "favicon-32x32.png"
+    apple_touch_icon = "apple-touch-icon.png"
+    safari_pinned_tab = "safari-pinned-tab.svg"
+
+  [params.label]
+    text = "My Blog"
+    icon = ""
+    iconHeight = 35
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/yourname"
+  [[params.socialIcons]]
+    name = "rss"
+    url = "/index.xml"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+
+[languages]
+  [languages.tr]
+    languageName = "Türkçe"
+    weight = 1
+    contentDir = "content/tr"
+    title = "Benim Blogum"
+    languageCode = "tr-tr"
+    [languages.tr.params]
+      description = "Türkçe Hugo PaperMod blogu"
+  [languages.en]
+    languageName = "English"
+    weight = 2
+    contentDir = "content/en"
+    title = "My Blog"
+    languageCode = "en-us"
+    [languages.en.params]
+      description = "English Hugo PaperMod blog"
+
+[module]
+  proxy = "direct"
+  [[module.imports]]
+    path = "github.com/adityatelange/hugo-PaperMod"
