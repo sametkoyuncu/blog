@@ -73,13 +73,6 @@ disableAliases = false
     name = "rss"
     url = "/index.xml"
 
-[menu]
-  [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "/posts/"
-    weight = 10
-
 [languages]
   [languages.tr]
     languageName = "Türkçe"
@@ -89,6 +82,22 @@ disableAliases = false
     languageCode = "tr-tr"
     [languages.tr.params]
       description = "Samet Koyuncu'nun Türkçe Hugo PaperMod blogu"
+      [languages.tr.params.profileMode]
+        enabled = true
+        title = "Merhaba, ben Samet"
+        subtitle = "iOS geliştiricisi ve teknoloji blog yazarı."
+        imageUrl = "images/hugo-cover.png"
+        imageTitle = "Samet Koyuncu"
+        buttons = [
+          { name = "Yazılar", url = "/posts/" },
+          { name = "GitHub", url = "https://github.com/sametkoyuncu" }
+        ]
+    [languages.tr.menu]
+      [[languages.tr.menu.main]]
+        identifier = "posts"
+        name = "Yazılar"
+        url = "/posts/"
+        weight = 10
   [languages.en]
     languageName = "English"
     weight = 2
@@ -97,6 +106,22 @@ disableAliases = false
     languageCode = "en-us"
     [languages.en.params]
       description = "Samet Koyuncu's English Hugo PaperMod blog"
+      [languages.en.params.profileMode]
+        enabled = true
+        title = "Hi, I'm Samet"
+        subtitle = "iOS developer sharing notes in English."
+        imageUrl = "images/hugo-cover.png"
+        imageTitle = "Samet Koyuncu"
+        buttons = [
+          { name = "Posts", url = "/en/posts/" },
+          { name = "GitHub", url = "https://github.com/sametkoyuncu" }
+        ]
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/en/posts/"
+        weight = 10
 
 [module]
   proxy = "direct"
