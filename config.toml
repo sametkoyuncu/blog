@@ -66,12 +66,6 @@ disableAliases = false
     icon = ""
     iconHeight = 35
 
-  [[params.socialIcons]]
-    name = "github"
-    url = "https://github.com/sametkoyuncu"
-  [[params.socialIcons]]
-    name = "rss"
-    url = "index.xml"
 
 [languages]
   [languages.tr]
