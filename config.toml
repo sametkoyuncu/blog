@@ -113,7 +113,7 @@ disableAliases = false
         imageUrl = "https://avatars.githubusercontent.com/u/17934179?s=400&u=abbb2903cb7385d77fc25f2bbb4ee2ffdea19131&v=4"
         imageTitle = "Samet Koyuncu"
         buttons = [
-          { name = "Posts", url = "en/posts/" },
+          { name = "Posts", url = "posts/" },
           { name = "GitHub", url = "https://github.com/sametkoyuncu" }
         ]
     [languages.en.menu]
