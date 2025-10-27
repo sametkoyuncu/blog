@@ -9,16 +9,9 @@ summary: "Hugo is an open-source static site generator that turns Markdown into 
 readingTime: true
 draft: false
 cover:
-  image: "/images/hugo-cover.png"
+  image: "images/hugo-cover.png"
   alt: "Hugo static site generator"
----
-
-## TL;DR
-
-- Hugo converts Markdown content into a static website within seconds, delivering top-tier speed and security without servers or databases.
-- Deploy to Netlify, GitHub Pages, or Cloudflare with a single command and launch your blog or portfolio quickly using the PaperMod theme.
-- Ideal for content-heavy sites where a Git-based workflow beats a traditional CMS.
-
+  relative: false
 ---
 
 ## What Is Hugo?

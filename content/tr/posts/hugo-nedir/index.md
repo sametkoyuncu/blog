@@ -9,16 +9,9 @@ summary: "Hugo, Markdown dosyalarını hızla web sitelerine dönüştüren aç�
 readingTime: true
 draft: false
 cover:
-  image: "/images/hugo-cover.png"
+  image: "images/hugo-cover.png"
   alt: "Hugo statik site üreticisi"
----
-
-## TL;DR
-
-- Hugo, Markdown tabanlı içerikleri saniyeler içinde statik web sitelerine dönüştürür; hız ve güvenliği birlikte sunarak “statik site nedir?” sorusuna pratik cevap verir.
-- Netlify, GitHub Pages veya Cloudflare gibi sağlayıcılara tek komutla dağıtım yapabilir, PaperMod temasıyla blog ya da portföyünü dakikalar içinde yayına alabilirsin.
-- Veritabanı ve back-end ihtiyacı olmadığı için bakım maliyeti düşer, Git tabanlı içerik akışıyla çalışmak kolaylaşır.
-
+  relative: false
 ---
 
 ## Hugo Nedir?
